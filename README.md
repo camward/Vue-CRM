@@ -1,29 +1,7 @@
-# vue-crm
+# Vue CRM
 
-## Project setup
-```
-npm install
-```
+Склонировать проект: `https://github.com/camward/Vue-CRM.git`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Перейти в папку проекта и установить зависимости: `npm i` или `yarn`
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Запустить проект командой `npm run serve` и перейти по адресу `http://localhost:8080/`

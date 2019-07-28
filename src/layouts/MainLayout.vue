@@ -12,11 +12,8 @@
         </div>
       </main>
 
-      <div class="fixed-action-btn">
-        <router-link
-          class="btn-floating btn-large blue"
-          to="/record"
-        >
+      <div class="fixed-action-btn" :key="locale + '1'">
+        <router-link class="btn-floating btn-large blue" to="/record">
           <i class="large material-icons">add</i>
         </router-link>
       </div>
@@ -55,9 +52,6 @@ export default {
     }
   },
   watch: {
-    // locale() {
-    //   console.log('Locale changed')
-    // },
     error(fbError) {
       this.$error(messages[fbError.code] || 'Что-то пошло не так')
     }
